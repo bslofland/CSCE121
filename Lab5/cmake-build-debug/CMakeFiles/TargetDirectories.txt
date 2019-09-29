@@ -1,3 +1,3 @@
-/Users/Brendanl/Documents/programs/CSCE/Lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Brendanl/Documents/programs/CSCE/Lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Brendanl/Documents/programs/CSCE/Lab5/cmake-build-debug/CMakeFiles/test.dir
+/Users/Brendanl/CSCE121/Lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Brendanl/CSCE121/Lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Brendanl/CSCE121/Lab5/cmake-build-debug/CMakeFiles/test.dir

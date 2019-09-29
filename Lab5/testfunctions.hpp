@@ -53,10 +53,10 @@ double calculateForce(const double* leftTeam, const double* rightTeam, unsigned 
 
 void printWinnerToStdOut(const char* leftTeamName, const char* rightTeamName, const double netForce){
     if(netForce < -5){
-        cout << leftTeamName << " wins!!!!\n";
+        cout << leftTeamName << " wins\n";
     }
     else if (netForce > 5){
-        cout << rightTeamName << " wins!!!!!!!!!!!!!!!!\n";
+        cout << rightTeamName << " wins\n";
     }
     else{
         cout << "Tie.\n";
