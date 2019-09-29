@@ -56,7 +56,7 @@ void printWinnerToStdOut(const char* leftTeamName, const char* rightTeamName, co
         cout << leftTeamName << " wins\n";
     }
     else if (netForce > 5){
-        cout << rightTeamName << " wins really wins!\n";
+        cout << rightTeamName << " wins sorta wins!\n";
     }
     else{
         cout << "Tie.\n";
