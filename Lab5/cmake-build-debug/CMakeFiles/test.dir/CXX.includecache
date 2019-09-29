@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Brendanl/Documents/programs/CSCE/Lab5/driver.cpp
+testfunctions.hpp
+/Users/Brendanl/Documents/programs/CSCE/Lab5/testfunctions.hpp
+iostream
+-
+
+/Users/Brendanl/Documents/programs/CSCE/Lab5/testfunctions.hpp
+iostream
+-
+cmath
+-
+
