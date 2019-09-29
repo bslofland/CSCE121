@@ -11,19 +11,20 @@
 
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
-void readForceValuesFromStdIn(double* leftTeam, double* rightTeam, unsigned const int noParticipants)
+void readForceValuesFromStdIn(double *leftTeam, double *rightTeam, unsigned const int noParticipants)
 {
     double temp1, temp2;
-    for(int i = 0; i < noParticipants; i++){
+    for (int i = 0; i < noParticipants; i++) {
         cin >> temp1;
         cin >> temp2;
         leftTeam[i] = temp1;
         rightTeam[i] = temp2;
-        
-        if (leftTeam[i] < 0 || rightTeam[i] < 0){
-            cout <<"Sorry that input is invalid"<< endl;
+
+        if (leftTeam[i] < 0 || rightTeam[i] < 0) {
+            cout << "Sorry that input is invalid" << endl;
             exit(1);
         }
     }
@@ -32,33 +33,33 @@ void readForceValuesFromStdIn(double* leftTeam, double* rightTeam, unsigned cons
 bool validForces(const double *forces, unsigned const int noParticipants)
 {
     for (int i = 0; i < noParticipants; ++i)
-        if(forces[i] < 0){
+        if (forces[i] < 0) {
             return false;
         }
     return true;
 }
 
-double calculateForce(const double* leftTeam, const double* rightTeam, unsigned const int noParticipants) {
+double calculateForce(const double *leftTeam, const double *rightTeam, unsigned const int noParticipants)
+{
     double netForce = 0;
-    for(int i = 0; i < noParticipants; i++){
+    for (int i = 0; i < noParticipants; i++) {
         netForce = netForce - leftTeam[i];
         netForce = netForce + rightTeam[i];
-        
-        if(netForce < -5 || netForce > 5){
+
+        if (netForce < -5 || netForce > 5) {
             break;
         }
     }
-    return(netForce);
+    return (netForce);
 }
 
-void printWinnerToStdOut(const char* leftTeamName, const char* rightTeamName, const double netForce){
-    if(netForce < -5){
+void printWinnerToStdOut(const char *leftTeamName, const char *rightTeamName, const double netForce)
+{
+    if (netForce < -5) {
         cout << leftTeamName << " wins\n";
-    }
-    else if (netForce > 5){
+    } else if (netForce > 5) {
         cout << rightTeamName << " wins sorta wins!\n";
-    }
-    else{
+    } else {
         cout << "Tie.\n";
     }
 }
