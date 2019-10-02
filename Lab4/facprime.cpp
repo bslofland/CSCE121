@@ -6,7 +6,7 @@ using namespace std;
 // function for factorial
 long factorial (int k)
 {
-    long int result = 1;
+    long long int result = 1;
     for (int i = 1; i <= k; i++){
         result = result * i;
     }

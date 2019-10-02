@@ -3,4 +3,4 @@ project(Lab5)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(test driver.cpp)
+add_executable(test driver.cpp testfunctions.hpp)

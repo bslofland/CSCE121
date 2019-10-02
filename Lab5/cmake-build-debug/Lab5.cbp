@@ -83,6 +83,9 @@
 		<Unit filename="/Users/Brendanl/CSCE121/Lab5/driver.cpp">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/Users/Brendanl/CSCE121/Lab5/testfunctions.hpp">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/Users/Brendanl/CSCE121/Lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
