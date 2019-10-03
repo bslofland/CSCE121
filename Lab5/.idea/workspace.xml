@@ -12,17 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6815f006-223e-48d1-a673-02f0a016d0b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab6/functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/facprime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/facprime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/vacation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/vacation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab5.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
