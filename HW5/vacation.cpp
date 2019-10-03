@@ -1,6 +1,8 @@
 
-#include <iostream>
 #include "functions.h"
+#include <iostream>
+#include <fstream>
+#include <cstring>
 using namespace std;
 
 
@@ -24,6 +26,31 @@ int main()
     titles = "titles.txt";
     prefs = "prefs-10.txt";
     plan = "plan-365-99.txt";
+
+    ifstream fin;
+    fin.open("C:/users/brendanl/CSCE121/HW5/titles.txt");
+    if(!fin){
+        cout << "Invalid input. -titles";
+        return (1);
+    }
+    fin.close();
+
+    ifstream fn;
+    fn.open(prefs);
+    if(fn){
+        cout << "Invalid input. -prefs";
+        return (0);
+    }
+    fn.close();
+
+    ifstream f;
+    f.open(plan);
+    if(f){
+        cout << "Invalid input. -plan";
+        return (0);
+    }
+    f.close();
+
 
 
 

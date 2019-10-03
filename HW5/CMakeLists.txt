@@ -3,4 +3,4 @@ project(HW5)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(HW5 vacation.cpp functions.h functions.cpp)
+add_executable(HW5 vacation.cpp functions.h functions.cpp titles.txt plan-365-99.txt prefs-10.txt)
